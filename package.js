@@ -1,6 +1,6 @@
 Package.describe({
   "summary": "A Winston Papertrail wrapper for Meteor.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "git": "https://github.com/danieljonce/meteor-winston-papertrail.git",
   "name": "wylio:winston-papertrail"
 });
