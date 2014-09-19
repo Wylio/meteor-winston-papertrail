@@ -1,5 +1,5 @@
 Package.describe({
-  "summary": "A Winston Papertrail wrapper for Meteor, forked to add 0.9.x compatibility.",
+  "summary": "A Winston Papertrail wrapper for Meteor.",
   "version": "0.0.1",
   "git": "https://github.com/danieljonce/meteor-winston-papertrail.git",
   "name": "wylio:winston-papertrail"
@@ -12,10 +12,10 @@ Npm.depends({
 
 Package.onUse(function (api, where) {
     if(api.versionsFrom) {
-      api.versionsFrom('METEOR@0.9.0');
+      api.versionsFrom('METEOR@0.9.2.2');
     }
-    api.add_files('winston.js', 'server');
-    api.add_files('winston-papertrail.js', 'server');
+    api.addFiles('winston.js', 'server');
+    api.addFiles('winston-papertrail.js', 'server');
     if(api.export){
         api.export('Winston');
         api.export('Winston_Papertrail');
