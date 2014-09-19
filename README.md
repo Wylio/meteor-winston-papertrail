@@ -23,7 +23,7 @@ Winston_Papertrail
 so it can be used as follows:
 
 Create a file called logging.js in the lib folder in the root or your app.
-The Lib folder is called first so that loging is exposed early on.
+The Lib folder is called first so that logging is exposed early on.
 
 Don't forget to change PORT to the port number provided to you by PapertailApp.com.
 
