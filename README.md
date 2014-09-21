@@ -4,7 +4,7 @@ A wrapper around [winston-papertrail](https://github.com/kenperkins/winston-pape
 
 
 ##Install
-mrt add winston-papertrail
+meteor wylio:winston-papertrail
 
 ##Usage
 
