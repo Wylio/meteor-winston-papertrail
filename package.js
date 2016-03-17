@@ -19,5 +19,6 @@ Package.onUse(function (api, where) {
     if(api.export){
         api.export('Winston');
         api.export('Winston_Papertrail');
+        api.export('WinstonPapertrail');
     }
 });
