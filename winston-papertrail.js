@@ -1,1 +1,1 @@
-Winston_Papertrail = Npm.require("winston-papertrail").Papertrail;
+Winston_Papertrail = WinstonPapertrail = Npm.require("winston-papertrail").Papertrail;
